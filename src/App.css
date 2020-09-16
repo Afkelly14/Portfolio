@@ -34,6 +34,7 @@
   border: none;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
+  padding: 10%;
 }
 
 .nav-button:hover {
@@ -41,21 +42,6 @@
   color: white;
 }
     
-
-
-/* a {
-  color: grey;
-  padding: 2% 6% 1% 6%;
-  font-size: 18px;
-  text-decoration: none;
-  font-family: "Cormorant", serif;
-  font-weight: 500;
-}
-
-a:hover {
-  color: black;
-} */
-
 .header {
   font-size: 60px;
   color: black;
@@ -117,3 +103,14 @@ a:hover {
   font-family: 'Montserrat', sans-serif;
 }
 
+.projects-header {
+  font-family: 'Montserrat', sans-serif;
+  margin: 10% 0% 0% 10%;
+  font-size: 35px;
+}
+
+/* .languages-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+} */

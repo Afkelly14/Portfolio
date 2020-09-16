@@ -16,11 +16,21 @@ class Nav extends Component {
             // </nav>
             <React.Fragment>
                 <nav className="nav-bar">
+            <Link to="/home">
             <button className="nav-button">Home</button>
+            </Link>
+            <Link to="/projects">
             <button className="nav-button">Projects</button>
+            </Link>
+            <Link to="/resume">
             <button className="nav-button">Resume</button>
+            </Link>
+            <Link to="www.github.com/Afkelly14">
             <button className="nav-button">GitHub</button>
+            </Link>
+            <Link to="/contact">
             <button className="nav-button">Contact</button>
+            </Link>
             </nav>
             </React.Fragment>
         )
