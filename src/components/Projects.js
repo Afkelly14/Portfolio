@@ -16,8 +16,9 @@ class Projects extends Component {
             <p>Other</p>
             <li>HTML</li>
             <li>CSS</li>
-            <button>Preview</button>
-            <button className="github-link">GitHub</button>
+            <button>Deployed Site</button>
+            <Link to="https://github.com/Afkelly14/Project-4">
+            <button className="github-link">GitHub</button></Link>
           </div>
 
           <div className="project-card">
@@ -51,7 +52,7 @@ class Projects extends Component {
             <li>Node</li>
             <li>HTML</li>
             <li>CSS</li>
-            <button>Preview</button>
+            <button>Deployed Site</button>
             <button className="github-link">GitHub</button>
           </div>
           <div className="project-card">
@@ -75,8 +76,12 @@ class Projects extends Component {
             <li>Node</li>
             <li>HTML</li>
             <li>CSS</li>
-            <button>Preview</button>
-            <button className="github-link">GitHub</button>
+            <Link to="https://butterfly1of4.github.io/">
+            <button>Deployed Site</button></Link>
+            <Link to="https://github.com/butterfly1of4/project8-frontend">
+            <button className="github-link">GitHub Front-End</button></Link>
+            <Link to="https://github.com/butterfly1of4/project8-backend">
+            <button className="github-link">GitHub Back-End</button></Link>
           </div>
           <div className="project-card">
             <h3>Statistics Without Borders</h3>
@@ -101,7 +106,8 @@ class Projects extends Component {
             <li>Node</li>
             <li>HTML</li>
             <li>CSS</li>
-            <button>Preview</button>
+            <Link to="https://swbapp.netlify.app/">
+            <button>Deployed Site</button></Link>
             <button className="github-link">GitHub</button>
           </div>
         </div>
