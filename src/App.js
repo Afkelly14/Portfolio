@@ -1,26 +1,33 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import { Route, Link, Switch } from "react-router-dom";
+import { Router } from "react-router";
+import "./App.css";
+import Contact from "./components/Contact";
+import Projects from "./components/Projects";
+import Nav from "./components/Nav";
+import Resume from "./components/Resume";
+import Home from "./components/Home";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  constructor() {
+    super();
+    this.state = {};
+  }
+  render() {
+    return (
+      <div>
+        <Header />
+        <Nav />
+        <Route path="/" exact component={Home} />
+        <Route path="/home" exact component={Home} />
+        <Route path="/contact" exact component={Contact} />
+        <Route path="/resume" exact component={Resume} />
+        <Route path="/projects" exact component={Projects} />
+        {/* <Footer /> */}
+      </div>
+    );
+  }
 }
-
 export default App;

@@ -1,38 +1,114 @@
-.App {
+.headshot {
+  height: 100%;
+  width: auto;
+  display: inline;
+  position: relative;
+  border-radius: -50%;
+}
+
+.headshot-crop {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  height: 3em;
+  /* width: 65%; */
+  justify-content: center;
+  margin: 0% 18%;
+  
+}
+
+.nav-button { 
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  margin: 0% 5%;
+  width: 150px;
+  color: black;
+  background-color: white;
+  border: none;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+    
+
+
+/* a {
+  color: grey;
+  padding: 2% 6% 1% 6%;
+  font-size: 18px;
+  text-decoration: none;
+  font-family: "Cormorant", serif;
+  font-weight: 500;
+}
+
+a:hover {
+  color: black;
+} */
+
+.header {
+  font-size: 60px;
+  color: black;
   text-align: center;
+  font-family: "Cormorant", serif;
+  font-weight: 800;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.AboutMe {
+  display: flex;
+  flex-direction: row;
+  margin: 2% 10% 10% 21%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.name {
+  font-family: "Cormorant", serif;
+  font-weight: 800;
+  margin: 10% 15% 1% 23%;
+  font-size: 35px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.title {
+  font-family: "Cormorant", serif;
+  font-weight: 500;
+  margin: 0% 15% 1% 23%;
+}
+
+.brand {
+  padding: 14% 0% 0% 3%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.footer {
+  height: 130px;
+  width: 100%;
+  background-color: grey;
+}
+
+.projects {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0em 5em;
+  justify-content: center;
+  /* padding: 5%; */
+}
+
+.project-card {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: 5%;
+  height: 25rem;
+  background-color: pink;
+  width: 24rem;
+  border: solid red 1px;
 }
 
-.App-link {
-  color: #61dafb;
+.API-Link {
+  font-family: 'Montserrat', sans-serif;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
