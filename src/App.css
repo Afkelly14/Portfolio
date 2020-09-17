@@ -35,7 +35,7 @@
   border-top: 1px solid black;
   border-bottom: 1px solid black;
   padding: 15%;
- 
+  outline: none !important;
 }
 
 .nav-button:hover {
@@ -127,4 +127,17 @@
 .website-buttons {
   display: flex;
   flex-direction: row;
+}
+
+.resume {
+  background-color: black;
+  color: white;
+  font-size: 25px;
+  padding: 1% 5%;
+}
+
+.Contact {
+  display: flex;
+  flex-direction: row;
+  margin: 2% 10% 10% 21%;
 }

@@ -22,9 +22,9 @@ class Nav extends Component {
           <Link to="/projects">
             <button className="nav-button">Projects</button>
           </Link>
-          <Link to="/resume">
+          <ExternalLink href="https://drive.google.com/file/d/17lKFsn3vTWpsDPhg0nAJ3g0knMjfuf0E/view">
             <button className="nav-button">Resume</button>
-          </Link>
+          </ExternalLink>
           <ExternalLink href="https://github.com/Afkelly14">
             <button className="nav-button">GitHub</button>
           </ExternalLink>
