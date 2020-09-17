@@ -101,6 +101,7 @@ class Projects extends Component {
             <li>CSS</li>
             </div>
             <div className="website-buttons">
+              <div className="Nterflix-flex">
             <Link to="https://butterfly1of4.github.io/">
             <Button variant="outline-light">Deployed Site</Button>{' '}
             </Link>
@@ -108,8 +109,9 @@ class Projects extends Component {
               <Button variant="github-link">GitHub <br />Front-End</Button>
             </Link>
             <Link to="https://github.com/butterfly1of4/project8-backend">
-            <Button variant="github-link">GitHub <br />Back-End</Button>
+            <Button variant="github-link-back-end">GitHub <br />Back-End</Button>
             </Link>
+            </div>
             </div>
           </div>
           <div className="project-card">
