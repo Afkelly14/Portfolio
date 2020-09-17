@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Route, Link, Switch } from "react-router-dom";
+import Button from 'react-bootstrap/Button';
 
 class Projects extends Component {
   render() {
@@ -9,8 +10,8 @@ class Projects extends Component {
         <div className="projects">
           <div className="project-card">
             
-            <h3>Front-End Trivia Game</h3>
-            <p>A timed, self-scoring trivia game on U.S. History</p>
+            <h3 className="project-name">Front-End Trivia Game</h3>
+            <p className="projects-description">A timed, self-scoring trivia game on U.S. History</p>
             
              
             <p>Languages:</p>
@@ -22,17 +23,17 @@ class Projects extends Component {
             <li>CSS</li>
            
             <div className="website-buttons">
-            <button>Deployed Site</button>
+            <Button variant="outline-light">Deployed Site</Button>{' '}
             <Link to="https://github.com/Afkelly14/Project-4">
-              <button className="github-link">GitHub</button>
+            <Button variant="github-link">GitHub</Button>{' '}
             </Link>
             </div>
           
           </div>
           <div className="project-card">
-            <h3>The Cocktail Database</h3>
+            <h3 className="project-name">The Cocktail Database</h3>
 
-            <p>
+            <p className="projects-description">
               A full-stack application using{" "}
               <a
                 className="API-Link"
@@ -66,13 +67,13 @@ class Projects extends Component {
               <li>CSS</li>
               </div>
               <div className="website-buttons">
-              <button>Deployed Site</button>
-              <button className="github-link">GitHub</button>
+              <Button variant="outline-light">Deployed Site</Button>{' '}
+              <Button variant="github-link">GitHub</Button>{' '}
             </div>
           </div>
           <div className="project-card">
-            <h3>Nterflix App</h3>
-            <p>
+            <h3 className="project-name">Nterflix App</h3>
+            <p className="projects-description">
               A full-stack application built using React with the ability to
               add, update or delete movies from the database
             </p>
@@ -101,19 +102,19 @@ class Projects extends Component {
             </div>
             <div className="website-buttons">
             <Link to="https://butterfly1of4.github.io/">
-              <button>Deployed Site</button>
+            <Button variant="outline-light">Deployed Site</Button>{' '}
             </Link>
             <Link to="https://github.com/butterfly1of4/project8-frontend">
-              <button className="github-link">GitHub Front-End</button>
+              <Button variant="github-link">GitHub <br />Front-End</Button>
             </Link>
             <Link to="https://github.com/butterfly1of4/project8-backend">
-              <button className="github-link">GitHub Back-End</button>
+            <Button variant="github-link">GitHub <br />Back-End</Button>
             </Link>
             </div>
           </div>
           <div className="project-card">
-            <h3>Statistics Without Borders</h3>
-            <p>
+            <h3 className="project-name">Statistics Without Borders</h3>
+            <p className="projects-description">
               Created a non-profit website based on a mock-up from UI designers
               with a team of 12
             </p>
@@ -142,11 +143,11 @@ class Projects extends Component {
             <li>HTML</li>
             <li>CSS</li>
             </div>
-            <div className="websites">
+            <div className="website-buttons">
             <Link to="https://swbapp.netlify.app/">
-              <button>Deployed Site</button>
+            <Button variant="outline-light">Deployed Site</Button>{' '}
             </Link>
-            <button className="github-link">GitHub</button>
+            <Button variant="github-link">GitHub</Button>{' '}
            
             </div>
           </div>
