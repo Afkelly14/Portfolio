@@ -13,15 +13,15 @@ class Projects extends Component {
             <h3 className="project-name">Front-End Trivia Game</h3>
             <p className="projects-description">A timed, self-scoring trivia game on U.S. History</p>
             
-             
-            <p>Languages:</p>
+             <div className="languages">
+            <p className="language-title">Languages:</p>
             <li>Javascript</li>
-           
-            
-            <p>Other</p>
+            </div>
+            <div className="other-buttons">
+            <p className="language-title">Other</p>
             <li>HTML</li>
             <li>CSS</li>
-           
+            </div>
             <div className="website-buttons">
             <Button variant="outline-light">Deployed Site</Button>{' '}
             <Link to="https://github.com/Afkelly14/Project-4">
@@ -46,20 +46,20 @@ class Projects extends Component {
             </p>
             <div className="languages-box">
               <div className="languages">
-              <p>Languages:</p>
+              <p className="language-title">Languages:</p>
               <ul>
                 <li>Javascript</li>
               </ul>
               </div>
               <div className="frameworks">
-              <p>Frameworks:</p>
+              <p className="language-title">Frameworks:</p>
               <ul>
                 <li>React</li>
               </ul>
             </div>
             </div>
             <div className="other-buttons">
-              <p>Other:</p>
+              <p className="language-title">Other:</p>
               <li>Mongoose</li>
               <li>Express</li>
               <li>Node</li>
@@ -79,21 +79,21 @@ class Projects extends Component {
             </p>
             <div className="languages-box">
               <div className="languages">
-            <p>Languages:</p>
+            <p className="language-title">Languages:</p>
             <ul>
               <li>Javascript</li>
             </ul>
             </div>
             
             <div className="frameworks">
-            <p>Frameworks:</p>
+            <p className="language-title">Frameworks:</p>
             <ul>
               <li>React</li>
             </ul>
             </div>
             </div>
             <div className="other-buttons">
-            <p>Other:</p>
+            <p className="language-title">Other:</p>
             <li>Mongoose</li>
             <li>Express</li>
             <li>Node</li>
@@ -122,7 +122,7 @@ class Projects extends Component {
             </p>
             <div className='languages-box'>
               <div className="languages">
-            <p>Languages:</p>
+            <p className="language-title">Languages:</p>
             <ul>
               <li>Javascript</li>
               <li>Python</li>
@@ -130,7 +130,7 @@ class Projects extends Component {
             </div>
             
             <div className="frameworks">
-            <p>Frameworks:</p>
+            <p className="language-title">Frameworks:</p>
             <ul>
               <li>React</li>
               <li>Django</li>
@@ -138,7 +138,7 @@ class Projects extends Component {
             </div>
             </div>
             <div className="other-buttons">
-            <p>Other:</p>
+            <p className="language-title">Other:</p>
             <li>Mongoose</li>
             <li>Express</li>
             <li>Node</li>

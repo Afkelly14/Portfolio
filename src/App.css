@@ -95,8 +95,10 @@
   margin: 5%;
   height: 35rem;
   background-color: rgb(3, 4, 59);
+  
   width: 27rem;
   color: white;
+  box-shadow: 20px 20px rgba(0,0,0,.15);
 }
 
 .API-Link {
@@ -116,15 +118,15 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  border: solid !important;
+  
 }
 
 .other-buttons {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  border: orange 2px solid;
-  margin: 0% 0% 0% 10%;
+  
+  margin: 4% 0% 0% 10%;
 }
 
 .website-buttons {
@@ -151,6 +153,7 @@
   padding-left: 5%;
   font-size: 25px;
   font-family: "Montserrat", sans-serif;
+  text-decoration: double underline;
 }
 
 .projects-description {
@@ -190,6 +193,13 @@
   height: 3em;
   font-size: 16px;
   text-transform: uppercase;
+  transition: 1s ease-in-out;
+}
+
+.btn-outline-light:hover {
+  color: rgb(3, 4, 59);
+  background-color: white;
+  background-position: -100% 0;
 }
 
 .btn-github-link {
@@ -199,8 +209,14 @@
   width: 11em;
   height: 3em;
   font-size: 16px;
-  
+  transition: 1s ease-in-out;
   text-transform: uppercase;
+}
+
+.btn-github-link:hover {
+  color: rgb(3, 4, 59);
+  background-color: white;
+  background-position: -100% 0;
 }
 
 .btn-github-link-back-end {
@@ -213,11 +229,24 @@
   margin-left: 6em;
   margin-top: 4%;
   text-transform: uppercase;
+  transition: 1s ease-in-out;
 }
+
+.btn-github-link-back-end:hover {
+  color: rgb(3, 4, 59);
+  background-color: white;
+  background-position: -100% 0;
+}
+
 
 .Nterflix-flex {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   padding-left: 8%;
+}
+
+.language-title {
+  font-weight: 600;
+  text-decoration: underline;
 }
