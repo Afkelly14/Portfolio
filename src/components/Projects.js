@@ -23,10 +23,12 @@ class Projects extends Component {
             <li>CSS</li>
             </div>
             <div className="website-buttons">
+              <a target="_blank" href="https://afkelly14.github.io/Project-4/">
             <Button variant="outline-light">Deployed Site</Button>{' '}
-            <Link to="https://github.com/Afkelly14/Project-4">
+            </a>
+            <a target="_blank" href="https://github.com/Afkelly14/Project-4">
             <Button variant="github-link">GitHub</Button>{' '}
-            </Link>
+            </a>
             </div>
           
           </div>
@@ -66,10 +68,19 @@ class Projects extends Component {
               <li>HTML</li>
               <li>CSS</li>
               </div>
-              <div className="website-buttons">
+              
+                <div className="Cocktail-flex">
+                <a target="_blank" href="https://cocktail-api-front-end-l47f4ea2f.vercel.app/">
               <Button variant="outline-light">Deployed Site</Button>{' '}
-              <Button variant="github-link">GitHub</Button>{' '}
-            </div>
+              </a>
+              <a target="_blank" href="https://github.com/Afkelly14/cocktail-api-front-end">
+              <Button variant="github-link">GitHub <br />Front-End</Button>
+            </a>
+            <a target="_blank" href="https://github.com/Afkelly14/Project-6">
+            <Button variant="github-link-back-end">GitHub <br />Back-End</Button>
+              </a>
+              </div>
+           
           </div>
           <div className="project-card">
             <h3 className="project-name">Nterflix App</h3>
@@ -100,7 +111,7 @@ class Projects extends Component {
             <li>HTML</li>
             <li>CSS</li>
             </div>
-            <div className="website-buttons">
+            
               <div className="Nterflix-flex">
             <Link to="https://butterfly1of4.github.io/">
             <Button variant="outline-light">Deployed Site</Button>{' '}
@@ -112,7 +123,7 @@ class Projects extends Component {
             <Button variant="github-link-back-end">GitHub <br />Back-End</Button>
             </Link>
             </div>
-            </div>
+            
           </div>
           <div className="project-card">
             <h3 className="project-name">Statistics Without Borders</h3>
