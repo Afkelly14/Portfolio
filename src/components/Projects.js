@@ -113,15 +113,15 @@ class Projects extends Component {
             </div>
             
               <div className="Nterflix-flex">
-            <Link to="https://butterfly1of4.github.io/">
+            <a target="_blank" href="https://butterfly1of4.github.io/">
             <Button variant="outline-light">Deployed Site</Button>{' '}
-            </Link>
+            </a>
             <Link to="https://github.com/butterfly1of4/project8-frontend">
               <Button variant="github-link">GitHub <br />Front-End</Button>
             </Link>
-            <Link to="https://github.com/butterfly1of4/project8-backend">
+            <a target="_blank" href="https://github.com/butterfly1of4/project8-backend">
             <Button variant="github-link-back-end">GitHub <br />Back-End</Button>
-            </Link>
+            </a>
             </div>
             
           </div>
@@ -157,11 +157,12 @@ class Projects extends Component {
             <li>CSS</li>
             </div>
             <div className="website-buttons">
-            <Link to="https://swbapp.netlify.app/">
+            <a target="_blank" href="https://swbapp.netlify.app/">
             <Button variant="outline-light">Deployed Site</Button>{' '}
-            </Link>
+            </a>
+            <a target="_blank" href="https://github.com/statisticswithoutborders/swb-app">
             <Button variant="github-link">GitHub</Button>{' '}
-           
+            </a>
             </div>
           </div>
         </div>
