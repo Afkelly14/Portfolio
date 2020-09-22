@@ -134,7 +134,7 @@ class Projects extends Component {
                 <Button variant="github-link">
                   GitHub <br />
                   Front-End
-                </Button>
+                </Button>{" "}
               </a>
               <a
                 target="_blank"
