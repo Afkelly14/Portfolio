@@ -129,7 +129,7 @@ class Projects extends Component {
               </a>
               <a
                 target="_blank"
-                to="https://github.com/butterfly1of4/project8-frontend"
+                href="https://github.com/butterfly1of4/project8-frontend"
               >
                 <Button variant="github-link">
                   GitHub <br />
