@@ -124,7 +124,10 @@ class Projects extends Component {
             </div>
 
             <div className="Nterflix-flex">
-              <a target="_blank" href="https://butterfly1of4.github.io/project8-frontend/">
+              <a
+                target="_blank"
+                href="https://butterfly1of4.github.io/project8-frontend/"
+              >
                 <Button variant="outline-light">Deployed Site</Button>{" "}
               </a>
               <a

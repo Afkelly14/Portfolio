@@ -8,9 +8,9 @@ class Contact extends Component {
     return (
       <React.Fragment>
           <div className="contact-flex-1">
-        <h1>Alexandra Kelly</h1>
+        <h1 className="contact-name">Alexandra Kelly</h1>
 
-        <h2>Full Stack Software Engineer</h2>
+        <h2 className="contact-title">Full Stack Software Engineer</h2>
         </div>
         <div className="contact-flex-2">
         <div><Headshot /></div>

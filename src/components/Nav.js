@@ -28,6 +28,9 @@ class Nav extends Component {
           <ExternalLink href="https://github.com/Afkelly14">
             <button className="nav-button">GitHub</button>
           </ExternalLink>
+          <ExternalLink href="https://www.linkedin.com/in/alexkelly14/">
+            <button className="nav-button">LinkedIn</button>
+          </ExternalLink>
           <Link to="/contact">
             <button className="nav-button">Contact</button>
           </Link>
