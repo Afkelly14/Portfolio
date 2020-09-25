@@ -18,7 +18,7 @@
   display: flex;
   flex-direction: row;
   height: 3em;
- 
+
   justify-content: center;
   margin: 0% 18%;
 }
@@ -48,6 +48,7 @@
   text-align: center;
   font-family: "Cormorant", serif;
   font-weight: 800;
+  text-decoration: none;
 }
 
 .AboutMe {
@@ -70,7 +71,6 @@
 }
 
 .brand {
-  
   font-family: "Montserrat", sans-serif;
   font-weight: 900;
 }
@@ -87,11 +87,10 @@
 
 .projects {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
-  margin: 0em 5em;
+  /* margin: 0em 5em; */
   justify-content: center;
-  
 }
 
 .project-card {
@@ -170,7 +169,6 @@
   padding: 0% 25% 0% 8%;
 }
 
-
 .btn-outline-light {
   color: white;
   background-color: transparent;
@@ -230,7 +228,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   padding-left: 9%;
-  padding-top: 6%;;
+  padding-top: 6%;
 }
 
 .language-title {
@@ -248,7 +246,7 @@
 .contact-flex-1 {
   display: flex;
   flex-direction: column;
-  padding:8% 0% 4% 25%;
+  padding: 8% 0% 4% 25%;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -280,3 +278,16 @@
   font-weight: 500;
 }
 
+/* .project-preview {
+  height: auto;
+  width: 2%
+} */
+
+.project-image {
+  height: auto;
+  width: 60%;
+}
+
+a {
+  text-decoration: none;
+}

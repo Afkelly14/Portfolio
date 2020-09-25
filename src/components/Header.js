@@ -6,7 +6,8 @@ class Header extends Component {
     render () {
         return (
             <React.Fragment>
-            <h1 className="header">Alexandra Kelly</h1>
+                <Link to="/home">
+            <h1 className="header">Alexandra Kelly</h1></Link>
             </React.Fragment>
         )
     }

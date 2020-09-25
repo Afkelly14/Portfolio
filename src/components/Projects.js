@@ -1,6 +1,10 @@
 import React, { Component } from "react";
 import { Route, Link, Switch } from "react-router-dom";
 import Button from "react-bootstrap/Button";
+import CocktailAPI from "../images/CocktailAPI.png";
+import Nterflix from "../images/Nterflix.png";
+import SWB from "../images/SWB.png";
+import Trivia from "../images/Trivia.png";
 
 class Projects extends Component {
   render() {
@@ -31,6 +35,9 @@ class Projects extends Component {
                 <Button variant="github-link">GitHub</Button>{" "}
               </a>
             </div>
+          </div>
+          <div className="project-preview">
+            <img className="project-image" src={Trivia} />
           </div>
           <div className="project-card">
             <h3 className="project-name">The Cocktail Database</h3>
@@ -93,6 +100,9 @@ class Projects extends Component {
               </a>
             </div>
           </div>
+          <div className="project-preview">
+            <img className="project-image" src={CocktailAPI} />
+          </div>
           <div className="project-card">
             <h3 className="project-name">Nterflix App</h3>
             <p className="projects-description">
@@ -149,6 +159,9 @@ class Projects extends Component {
                 </Button>
               </a>
             </div>
+            <div className="project-preview">
+            <img className="project-image" src={Nterflix} />
+          </div>
           </div>
           <div className="project-card">
             <h3 className="project-name">Statistics Without Borders</h3>
@@ -192,6 +205,9 @@ class Projects extends Component {
                 <Button variant="github-link">GitHub</Button>{" "}
               </a>
             </div>
+          </div>
+          <div className="project-preview">
+            <img className="project-image" src={SWB} />
           </div>
         </div>
       </React.Fragment>
