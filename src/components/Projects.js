@@ -11,7 +11,7 @@ class Projects extends Component {
     return (
       <React.Fragment>
         <h1 className="projects-header">PROJECTS I HAVE CREATED SO FAR...</h1>
-        <div className="projects">
+        <div className="project-flex">
           <div className="project-card">
             <h3 className="project-name">Front-End Trivia Game</h3>
             <p className="projects-description">
@@ -36,9 +36,10 @@ class Projects extends Component {
               </a>
             </div>
           </div>
-          <div className="project-preview">
+       
             <img className="project-image" src={Trivia} />
-          </div>
+            </div>
+            <div className="project-flex">
           <div className="project-card">
             <h3 className="project-name">The Cocktail Database</h3>
 
@@ -100,9 +101,10 @@ class Projects extends Component {
               </a>
             </div>
           </div>
-          <div className="project-preview">
+         
             <img className="project-image" src={CocktailAPI} />
-          </div>
+            </div>
+         <div className="project-flex">
           <div className="project-card">
             <h3 className="project-name">Nterflix App</h3>
             <p className="projects-description">
@@ -159,10 +161,11 @@ class Projects extends Component {
                 </Button>
               </a>
             </div>
-            <div className="project-preview">
+           
             <img className="project-image" src={Nterflix} />
+            </div>
           </div>
-          </div>
+          <div className="project-flex">
           <div className="project-card">
             <h3 className="project-name">Statistics Without Borders</h3>
             <p className="projects-description">
@@ -206,10 +209,10 @@ class Projects extends Component {
               </a>
             </div>
           </div>
-          <div className="project-preview">
+         
             <img className="project-image" src={SWB} />
-          </div>
-        </div>
+       
+            </div>
       </React.Fragment>
     );
   }
