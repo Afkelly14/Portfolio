@@ -77,7 +77,7 @@ class Projects extends Component {
               <li>CSS</li>
             </div>
 
-            <div className="Cocktail-flex">
+            <div className="Link-flex">
               <a
                 target="_blank"
                 href="https://cocktail-api-front-end-l47f4ea2f.vercel.app/"
@@ -135,7 +135,7 @@ class Projects extends Component {
               <li>CSS</li>
             </div>
 
-            <div className="Nterflix-flex">
+            <div className="Link-flex">
               <a
                 target="_blank"
                 href="https://butterfly1of4.github.io/project8-frontend/"
@@ -161,9 +161,9 @@ class Projects extends Component {
                 </Button>
               </a>
             </div>
-           
+           </div>
             <img className="project-image" src={Nterflix} />
-            </div>
+           
           </div>
           <div className="project-flex">
           <div className="project-card">
