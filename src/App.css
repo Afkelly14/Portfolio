@@ -90,14 +90,12 @@
   flex-direction: row;
   flex-wrap: wrap;
   /* margin: 0em 5em; */
-  
+
 .project-flex {
   display: flex;
   flex-direction: row;
   padding: 0% 2%;
-  
 }
- 
 
 .project-card {
   display: flex;
@@ -106,7 +104,7 @@
   height: 35rem;
   background-color: rgb(3, 4, 59);
 
-  width: 40rem;
+  width: 45rem;
   color: white;
   box-shadow: 20px 20px rgba(0, 0, 0, 0.15);
 }
@@ -134,15 +132,12 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-
   margin: 4% 0% 0% 10%;
 }
 
 .website-buttons {
   display: flex;
   flex-direction: row;
-  /* justify-content: center; */
-  /* margin-top: 6%; */
   padding: 10% 5% 4% 5%;
 }
 
@@ -198,7 +193,7 @@
   color: white;
   background-color: transparent;
   border: 2px white solid;
-  width: 11em;
+  width: 12em;
   height: 3em;
   font-size: 16px;
   transition: 1s ease-in-out;
@@ -239,7 +234,7 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  padding: 6% 0% 0% 6%;
+  padding: 5% 0% 0% 5%;
 }
 
 .contact-flex-1 {
@@ -285,4 +280,60 @@
 
 a {
   text-decoration: none;
+}
+
+@media only screen and (max-width: 500px) {
+  .name {
+    font-size: 15px;
+  }
+
+  .nav-button {
+    width: 60px;
+    font-size: 10px;
+  }
+  .projects-header {
+    font-size: 18px;
+  }
+
+  .project-card {
+    width: 280px;
+    height: auto;
+  }
+
+  .project-name {
+    font-size: 14px ;
+  }
+
+  .projects-description {
+    font-size: 10px;
+  }
+
+  .language-title {
+    font-size: 10px;
+  }
+
+  li {
+    font-size: 9px;
+  }
+
+  .btn-outline-light {
+    font-size: 10px;
+  }
+
+  .btn-github-link {
+    font-size: 10px;
+  }
+  .btn-github-link-back-end {
+    font-size: 10px;
+  }
+
+  .website-buttons {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .project-flex {
+    display: flex;
+    flex-direction: column;
+  }
 }
