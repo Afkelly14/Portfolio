@@ -336,4 +336,27 @@ a {
     display: flex;
     flex-direction: column;
   }
+
+  
+  .headshot-crop {
+    height: 100px;
+    width: 100px;
+  }
+
+  .contact-name {
+    font-size: 14px;
+  }
+  .contact-title {
+    font-size: 12px;
+  }
+
+  h3 {
+    font-size: 12px;
+  }
+
+  .contact-flex-2 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+  }
 }
