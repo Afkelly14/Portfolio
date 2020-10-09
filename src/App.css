@@ -85,7 +85,6 @@
   background-color: grey;
 }
 
-
 .project-flex {
   display: flex;
   flex-direction: row;
@@ -274,7 +273,7 @@
 }
 
 a {
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 @media only screen and (max-width: 500px) {
@@ -296,7 +295,7 @@ a {
   }
 
   .project-name {
-    font-size: 14px ;
+    font-size: 14px;
   }
 
   .projects-description {
@@ -334,7 +333,6 @@ a {
     flex-direction: column;
   }
 
-  
   .headshot-crop {
     height: 100px;
     width: 100px;
@@ -356,4 +354,28 @@ a {
     flex-direction: column;
     padding-left: 5%;
   }
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  color: white;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  background-color: lightgrey;
+  color: black;
+  font-size: 16px;
+  padding-left: 15%;
+  font-family: "Montserrat", sans-serif;
+}
+
+.dropdown:hover .dropdown-content{
+ display: block;
+ text-decoration: none;
+ width: 140px;
+ color: white;
 }
