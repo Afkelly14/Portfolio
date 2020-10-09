@@ -4,6 +4,7 @@ import { Router } from "react-router";
 import "./App.css";
 import Contact from "./components/Contact";
 import Projects from "./components/Projects";
+import MiniProjects from "./components/MiniProjects";
 import Nav from "./components/Nav";
 import Resume from "./components/Resume";
 import Home from "./components/Home";
@@ -26,8 +27,8 @@ class App extends Component {
         <Route path="/contact" exact component={Contact} />
         <Route path="/resume" exact component={Resume} />
         <Route path="/projects" exact component={Projects} />
-
-        {/* <Footer /> */}
+        <Route path="miniprojects" exact component={MiniProjects} />
+       
       </div>
     );
   }

@@ -10,7 +10,7 @@ class Projects extends Component {
   render() {
     return (
       <React.Fragment>
-        <h1 className="projects-header">PROJECTS I HAVE CREATED SO FAR...</h1>
+        <h1 className="projects-header">Full-Stack Applications I have created.....</h1>
         <div className="project-flex">
           <div className="project-card">
             <h3 className="project-name">Front-End Trivia Game</h3>
