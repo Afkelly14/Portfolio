@@ -14,8 +14,8 @@ class Nav extends Component {
             <Link to="/projects">
             <button className="nav-button">Projects</button></Link>
             <div className="dropdown-content">
-              <Link to="/miniprojects">Mini-Projects</Link><br/><br/>
-              <Link to="/projects">Full-Stack Applications</Link>
+              <Link to="/exercises">Exercises</Link><br/><br/>
+              <Link to="/projects">Applications</Link>
             </div>
             </div>
           
