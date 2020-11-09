@@ -17,8 +17,6 @@
 .nav-bar {
   display: flex;
   flex-direction: row;
-  height: 3em;
-
   justify-content: center;
   margin: 0% 18%;
 }
@@ -26,15 +24,14 @@
 .nav-button {
   font-family: "Montserrat", sans-serif;
   font-size: 20px;
-  margin: 0% 5%;
-  width: 150px;
+  width: 8em;
   color: black;
   background-color: white;
   border: none;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
-  padding: 15%;
   outline: none !important;
+  height: 4em;
 }
 
 .nav-button:hover {
@@ -79,12 +76,6 @@
   font-family: "Montserrat", sans-serif;
 }
 
-.footer {
-  height: 130px;
-  width: 100%;
-  background-color: grey;
-}
-
 .project-flex {
   display: flex;
   flex-direction: row;
@@ -97,7 +88,6 @@
   margin: 5%;
   height: 35rem;
   background-color: rgb(3, 4, 59);
-
   width: 85%;
   color: white;
   box-shadow: 20px 20px rgba(0, 0, 0, 0.15);
@@ -276,9 +266,6 @@ a {
   text-decoration: none !important;
 }
 
-.exercises-flex {
-
-}
 
 @media only screen and (max-width: 500px) {
   .name {
@@ -361,27 +348,27 @@ a {
 }
 
 .dropdown {
-  position: relative;
+  /* position: relative; */
   display: inline-block;
   color: white;
+  width: 8%;
+  height: 10%;
 }
 
 .dropdown-content {
   display: none;
   position: absolute;
-  z-index: 1;
   background-color: lightgrey;
   color: black;
   font-size: 16px;
-  padding-left: 15%;
+  width: 10%;
   font-family: "Montserrat", sans-serif;
+  padding-left: 2%;
 }
 
 .dropdown:hover .dropdown-content{
  display: block;
  text-decoration: none;
- width: 140px;
- color: white;
 }
 
 .exercises-flex {
@@ -399,3 +386,13 @@ a {
   color: white;
   box-shadow: 20px 20px rgba(0, 0, 0, 0.15);
 }
+
+.exercise-github {
+  padding: 18% 0% 0% 10%;
+}
+
+.dropdown-text {
+  font-family: "Montserrat", sans-serif;
+  color: black;
+}
+
