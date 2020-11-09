@@ -276,6 +276,10 @@ a {
   text-decoration: none !important;
 }
 
+.exercises-flex {
+
+}
+
 @media only screen and (max-width: 500px) {
   .name {
     font-size: 15px;
@@ -378,4 +382,20 @@ a {
  text-decoration: none;
  width: 140px;
  color: white;
+}
+
+.exercises-flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.exercises-card {
+  display: flex;
+  flex-direction: column;
+  margin: 5%;
+  height: 35rem;
+  background-color: rgb(2, 51, 17);
+  width: 85%;
+  color: white;
+  box-shadow: 20px 20px rgba(0, 0, 0, 0.15);
 }

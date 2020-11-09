@@ -4,12 +4,12 @@ import { Router } from "react-router";
 import "./App.css";
 import Contact from "./components/Contact";
 import Projects from "./components/Projects";
-import MiniProjects from "./components/MiniProjects";
+import Exercises from "./components/Exercises";
 import Nav from "./components/Nav";
 import Resume from "./components/Resume";
 import Home from "./components/Home";
 import Header from "./components/Header";
-import Footer from "./components/Footer";
+
 // import 'bootstrap/dist/css/bootstrap.min.css';
 
 class App extends Component {
@@ -27,8 +27,7 @@ class App extends Component {
         <Route path="/contact" exact component={Contact} />
         <Route path="/resume" exact component={Resume} />
         <Route path="/projects" exact component={Projects} />
-        <Route path="miniprojects" exact component={MiniProjects} />
-       
+        <Route path="/exercises" exact component={Exercises}/>       
       </div>
     );
   }
