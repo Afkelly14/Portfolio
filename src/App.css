@@ -262,6 +262,8 @@
   padding-top: 10%;
 }
 
+
+
 a {
   text-decoration: none !important;
 }
@@ -388,6 +390,12 @@ a {
 
 .exercise-github {
   padding: 18% 0% 0% 10%;
+}
+
+.exercises-image {
+  height: auto;
+  width: 57%;
+  padding: 5% 5% 5% 0%;
 }
 
 .dropdown-text {

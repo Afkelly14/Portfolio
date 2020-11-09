@@ -9,7 +9,7 @@ class Exercises extends Component {
         return (
             <React.Fragment>
                 
-                <h1 className="projects-header">Excercises</h1>
+                <h1 className="projects-header">Exercises</h1>
                 <div className="exercises-flex">
                 <div className="exercises-card">
                 <h2 className="project-name">Python Calculator</h2>
@@ -24,12 +24,12 @@ class Exercises extends Component {
               </a>
           </div>
                 </div>
-                <img className="project-image" src={Calculator}/>
+                <img className="exercises-image" src={Calculator}/>
                 </div>
                 <div className="exercises-flex">
                 <div className="exercises-card">
                 <h2 className="project-name">Web Scraping</h2>
-                <p className="projects-description">A program to allow user to search from the terminal and scrape the first page of results into its own folder</p>
+                <p className="projects-description">A program to allow the user to search bing.com from the terminal and scrape the first page of results into its own folder</p>
                 <div className="languages">
                 <p className="language-title">Languages:</p>
               <li>Python</li>
@@ -40,7 +40,7 @@ class Exercises extends Component {
               </a>
               </div>
                 </div>
-                <img className="project-image" src={ImageScraping}/>
+                <img className="exercises-image" src={ImageScraping}/>
                
                 </div>
             </React.Fragment>
