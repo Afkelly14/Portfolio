@@ -21,7 +21,7 @@ class Contact extends Component {
             <h3>Washington, D.C. Metro Area</h3>
             <h3>
               Contact Me:{" "}
-              <a href="mail to:afkelly14@gmail.com">afkelly14@gmail.com</a>
+              <a href="mailto:afkelly14@gmail.com?subject=Programming%20Opportunity">afkelly14@gmail.com</a>
             </h3>
           </div>
         </div>
