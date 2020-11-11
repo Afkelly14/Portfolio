@@ -80,7 +80,7 @@ class Projects extends Component {
             <div className="Link-flex">
               <a
                 target="_blank"
-                href="https://cocktail-api-front-end-l47f4ea2f.vercel.app/"
+                href="https://cocktail-api-front-end-git-master.afkelly14.vercel.app/"
               >
                 <Button variant="outline-light">Deployed Site</Button>{" "}
               </a>
