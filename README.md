@@ -6,4 +6,4 @@
 
 ###### The deployed site for this portfolio can be viewed at: https://afkelly14.com
 
-###### Also, please feel free to add me on [LinkedIn] (https://www.linkedin.com/in/alexkelly14/) as I am currently looking for opportunities.
+###### Also, please feel free to add me on [LinkedIn](https://www.linkedin.com/in/alexkelly14/) as I am currently looking for opportunities.
