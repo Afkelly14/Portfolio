@@ -6,6 +6,7 @@ import Nterflix from "../images/Nterflix.png";
 import SWB from "../images/SWB.png";
 import Trivia from "../images/Trivia.png";
 import Cryptocurrency from "../images/Cryptocurrency.png";
+import comingsoon from "../images/comingsoon.png";
 
 class Projects extends Component {
   render() {
@@ -107,7 +108,7 @@ class Projects extends Component {
             </div>
             <div className="project-flex">
             <div className="project-card">
-            <h3 className="project-name">Cryptocurrecy Markets</h3>
+            <h3 className="project-name">Cryptocurrency Markets</h3>
             <p className="projects-description">
               An application showing Cryptocurrency Information, US Markets and Foreign Exchange Markets derived from {" "}
               <a
@@ -146,6 +147,49 @@ class Projects extends Component {
             </div>
           </div>
           <img className="project-image" src={Cryptocurrency} />
+          </div>
+          <div className="project-flex">
+            <div className="project-card">
+            <h3 className="project-name">Spotify Playlist Generator</h3>
+            <p className="projects-description">
+              An application to create a Spotify playlist of the top songs from {" "}
+              <a
+                className="API-Link"
+                href="https://developer.spotify.com/"
+              >
+                The Spotify API
+              </a>{" "}
+              and add it to a users personal Spotify
+            </p>
+            <div className="languages-box">
+              <div className="languages">
+                <p className="language-title">Languages:</p>
+                <ul>
+                  <li>Python</li>
+                </ul>
+              </div>
+              <div className="frameworks">
+                <p className="language-title">Frameworks:</p>
+                <ul>
+                  <li>Django</li>
+                </ul>
+              </div>
+            </div>
+            {/* <div className="other-buttons">
+              <p className="language-title">Other:</p>
+              <li>Bootstrap</li>
+              
+            </div> */}
+            <div className="website-buttons">
+              {/* <a target="_blank" href="https://afkelly14.github.io/Project-4/">
+                <Button variant="outline-light">Deployed Site</Button>{" "}
+              </a> */}
+              <a target="_blank" href="https://github.com/Afkelly14/spotify">
+                <Button variant="github-link">GitHub</Button>{" "}
+              </a>
+            </div>
+          </div>
+          <img className="project-image" src={comingsoon} />
           </div>
          <div className="project-flex">
           <div className="project-card">
