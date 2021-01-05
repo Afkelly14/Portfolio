@@ -3,6 +3,11 @@
   --white: #ffffff;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .homebackground {
   background-color: black;
   height: 100%;
