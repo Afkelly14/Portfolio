@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Route, Link, Switch } from "react-router-dom";
-import Nav from "./Nav";
+
 import Headshot from "./Headshot";
 
 class Contact extends Component {

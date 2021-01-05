@@ -5,10 +5,8 @@ import "./App.css";
 import Contact from "./components/Contact";
 import Projects from "./components/Projects";
 import Exercises from "./components/Exercises";
-import Nav from "./components/Nav";
 import Resume from "./components/Resume";
 import Home from "./components/Home";
-import Header from "./components/Header";
 
 // import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -20,8 +18,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Header />
-        <Nav />
+        
         <Route path="/" exact component={Home} />
         <Route path="/home" exact component={Home} />
         <Route path="/contact" exact component={Contact} />
