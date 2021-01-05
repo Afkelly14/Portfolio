@@ -14,11 +14,17 @@
 }
 
 .homeimage {
-  margin-bottom: 80%;
+  transform-origin:50% 50%;
+  animation:15s rotateRight infinite linear; 
+}
+
+@keyframes rotateRight{
+  100%{ transform:rotate(360deg); }
 }
 
 .homelayout {
   text-align: center;
+  padding-top: 5%;
 }
 
 .name {
