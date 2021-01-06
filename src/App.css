@@ -58,7 +58,8 @@
 
 .about_text_flex {
   color: white;
-  padding: 2% 2% 2% 3%;
+  padding: 2% 0% 2% 3%;
+ 
 }
 
 p {
@@ -66,10 +67,10 @@ p {
 }
 
 .headshot {
-  height: 80vh;
+  height: 85vh;
   width: auto;
   padding-top: 7%;
-  padding-left: 7%;
+  padding-left: 23px;
 }
 
 .hey {
@@ -77,8 +78,11 @@ p {
   font-size: 100px;
 }
 
+a Link {
+  text-decoration: none;
+}
 
-.btn-outline-info {
+.btn-info {
   width: 60%;
 }
 
