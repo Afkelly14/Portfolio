@@ -12,9 +12,11 @@ class Projects extends Component {
   render() {
     return (
       <React.Fragment>
+       <div className="projects_background">
+        <h1 className="projects_title">Projects</h1>
         
-        <h1>Projects</h1>
-        <h3><i>Hover</i> to see more</h3>
+        <h2 className="projects_hover"><i>Hover</i> to see more</h2>
+     
         <div className="projectflex">
         
         <div class="project_image">
@@ -23,8 +25,8 @@ class Projects extends Component {
         <div class="overlay">
             <h2>Cocktail Database</h2>
             <p></p>
-            <a class="info" href="#">Github</a>
-            <a class="info" href="#">Deployed Site</a>
+            <a class="info" href="https://github.com/Afkelly14/cocktail-api-front-end">Github</a>
+            <a class="info" href="https://cocktail-api-front-end.vercel.app/">Deployed Site</a>
         </div>
       </div>
       </div>
@@ -35,8 +37,8 @@ class Projects extends Component {
         <img class="img-responsive" src={Trivia} alt="" />
         <div class="overlay">
             <h2>U.S History Trivia</h2>
-            <a class="info" href="#">Github</a>
-            <a class="info" href="#">Deployed Site</a>
+            <a class="info" href="https://github.com/Afkelly14/Project-4">Github</a>
+            <a class="info" href="https://afkelly14.github.io/Project-4/">Deployed Site</a>
         </div>
       </div>
       </div>
@@ -46,7 +48,7 @@ class Projects extends Component {
         <img class="img-responsive" src={Cryptocurrency} alt="" />
         <div class="overlay">
             <h2>Cryptocurrency</h2>
-            <a class="info" href="#">Github</a>
+            <a class="info" href="https://github.com/Afkelly14/stock_market">Github</a>
             {/* <a class="info" href="#">Deployed Site</a> */}
         </div>
       </div>
@@ -68,7 +70,7 @@ class Projects extends Component {
         <img class="img-responsive" src={comingsoon} alt="" />
         <div class="overlay">
             <h2>Python Spotify Playlist</h2>
-            <a class="info" href="#">Github</a>
+            <a class="info" href="https://github.com/Afkelly14/spotify">Github</a>
             {/* <a class="info" href="#">Deployed Site</a> */}
         </div>
       </div>
@@ -76,6 +78,7 @@ class Projects extends Component {
 
       </div>
       
+      </div>
       </React.Fragment>
       
     );

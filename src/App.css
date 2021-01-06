@@ -2,6 +2,7 @@
   --hot-pink: #ef0f97;
   --white: #ffffff;
   --orange: #e54446;
+  --blue: #1c8bb8;
 }
 
 * {
@@ -182,6 +183,17 @@ a Link {
   transition-delay: 0.3s;
 }
 
+.projects_title {
+ text-align: center;
+ padding-top: 20%;
+ font-size: 100px;
+}
+
+.projects_hover {
+  text-align: center;
+  font-size: 18px;
+}
+
 .projectflex {
   display: flex;
   flex-direction: row;
@@ -191,4 +203,13 @@ a Link {
 .img-responsive {
   height: 300px;
   width: auto;
+}
+
+.projects_background {
+  background-color: var(--blue);
+  background: linear-gradient(
+    to bottom,
+    rgba(229, 68, 70, 0.9556197478991597) 0%,
+    var(--blue) 10%
+  );
 }
