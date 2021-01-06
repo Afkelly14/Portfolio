@@ -91,7 +91,7 @@ a Link {
   width: auto;
   height: auto;
   margin: 40px;
-  box-shadow: -5px -5px 30px 5px red, 5px 5px 30px 5px blue;
+  box-shadow: -5px -5px 30px 5px purple, 5px 5px 30px 5px orange;
 }
 
 .hovereffect {
