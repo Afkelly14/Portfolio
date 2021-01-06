@@ -18,9 +18,7 @@ class About extends Component {
                 <p>My prior graphics design experience has given me an eye for design when developing websites</p>
              <p>Currently, I am seeking full-time employment in programming. </p>
              <p>Please add me on <ExternalLink href="https://www.linkedin.com/in/alexkelly14/">LinkedIn</ExternalLink> or contact me for opportunities</p>
-             <ExternalLink href="https://drive.google.com/file/d/1OI6rIw_X6a_Jd4erLGKWjQsTf_1pFMME/view?usp=sharing">
-             <Button className="resume" variant="outline-info">Resume</Button>{' '}
-             </ExternalLink>
+             <Button target="_blank" href="https://drive.google.com/file/d/1OI6rIw_X6a_Jd4erLGKWjQsTf_1pFMME/view?usp=sharing" variant="outline-info">Resume</Button>{' '}
              </div>           
               <div className='headshot'><Headshot /></div> 
             </div>

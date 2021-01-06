@@ -68,7 +68,7 @@ p {
 .headshot {
   height: 80vh;
   width: auto;
-  padding: 2% 0% 1% 1%;
+  padding: 2% 0% 0% 1%;
 }
 
 .hey {
@@ -80,3 +80,9 @@ a {
   text-decoration: none;
   color: white;
 }
+
+.btn-outline-info {
+  width: 60%;
+}
+
+
