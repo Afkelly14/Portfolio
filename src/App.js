@@ -7,6 +7,7 @@ import Projects from "./components/Projects";
 import Exercises from "./components/Exercises";
 import Resume from "./components/Resume";
 import Home from "./components/Home";
+import About from "./components/About";
 
 // import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -18,13 +19,14 @@ class App extends Component {
   render() {
     return (
       <div>
-        
-        <Route path="/" exact component={Home} />
+        <Home />
+        <About />
+        {/* <Route path="/" exact component={Home} />
         <Route path="/home" exact component={Home} />
         <Route path="/contact" exact component={Contact} />
         <Route path="/resume" exact component={Resume} />
         <Route path="/projects" exact component={Projects} />
-        <Route path="/exercises" exact component={Exercises}/>       
+        <Route path="/exercises" exact component={Exercises}/>        */}
       </div>
     );
   }

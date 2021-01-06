@@ -1,6 +1,7 @@
 :root {
   --hot-pink: #ef0f97;
   --white: #ffffff;
+  --orange: #E54446;
 }
 
 * {
@@ -12,15 +13,15 @@
   background-color: black;
   height: 100%;
 }
-
-.homeimage {
+ 
+ .homeimage {
   transform-origin:50% 50%;
   animation:15s rotateRight infinite linear; 
 }
 
 @keyframes rotateRight{
   100%{ transform:rotate(360deg); }
-}
+} 
 
 .homelayout {
   text-align: center;
@@ -40,5 +41,27 @@
   font-size: 18px;
 }
 
+.aboutbackground {
+  background-color: var(--orange);
+}
+
+.aboutflex {
+  display: flex;
+
+}
+
+.about_text_flex {
+  color: white;
+  padding: 3% 5%;
+}
+
+p {
+  padding-top: 15%;
+}
+
+.headshot {
+  height: 550px;
+  width: auto;
+}
 
 
