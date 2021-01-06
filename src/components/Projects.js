@@ -21,7 +21,7 @@ class Projects extends Component {
         
         <div class="project_image">
        <div class="hovereffect">
-        <img class="img-responsive" src={CocktailAPI} alt="" />
+        <img class="img-responsive" src={CocktailAPI} alt="The Cocktail Database" />
         <div class="overlay">
             <h2>Cocktail Database</h2>
             <p></p>
@@ -34,7 +34,7 @@ class Projects extends Component {
     
       <div class="project_image">
        <div class="hovereffect">
-        <img class="img-responsive" src={Trivia} alt="" />
+        <img class="img-responsive" src={Trivia} alt="US History Trivia" />
         <div class="overlay">
             <h2>U.S History Trivia</h2>
             <a class="info" href="https://github.com/Afkelly14/Project-4">Github</a>
@@ -45,7 +45,7 @@ class Projects extends Component {
 
       <div class="project_image">
        <div class="hovereffect">
-        <img class="img-responsive" src={Cryptocurrency} alt="" />
+        <img class="img-responsive" src={Cryptocurrency} alt="Cryptocurrency" />
         <div class="overlay">
             <h2>Cryptocurrency</h2>
             <a class="info" href="https://github.com/Afkelly14/stock_market">Github</a>
@@ -56,7 +56,7 @@ class Projects extends Component {
 
       <div class="project_image">
        <div class="hovereffect">
-        <img class="img-responsive" src={Nterflix} alt="" />
+        <img class="img-responsive" src={Nterflix} alt="Nterflix" />
         <div class="overlay">
             <h2>Nterflix</h2>
             <a class="info" href="#">Github</a>
@@ -67,7 +67,7 @@ class Projects extends Component {
 
       <div class="project_image">
        <div class="hovereffect">
-        <img class="img-responsive" src={comingsoon} alt="" />
+        <img class="img-responsive" src={comingsoon} alt="Python Spotify" />
         <div class="overlay">
             <h2>Python Spotify Playlist</h2>
             <a class="info" href="https://github.com/Afkelly14/spotify">Github</a>

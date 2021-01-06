@@ -88,9 +88,10 @@ a Link {
 }
 
 .project_image {
-  width: 600px;
+  width: auto;
   height: auto;
-  padding: 4%;
+  margin: 40px;
+  box-shadow: -5px -5px 30px 5px red, 5px 5px 30px 5px blue;
 }
 
 .hovereffect {
@@ -203,8 +204,8 @@ a Link {
 }
 
 .img-responsive {
-  height: 300px;
-  width: auto;
+  height: 310px;
+  width: 550px;
 }
 
 .projects_background {
