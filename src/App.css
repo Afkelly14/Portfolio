@@ -67,7 +67,7 @@ p {
 }
 
 .headshot {
-  height: 85vh;
+  height: auto;
   width: 60vw;
   padding-top: 7%;
   padding-left: 30px;
@@ -87,8 +87,9 @@ a Link {
 }
 
 .project_image {
-  width: 400px;
+  width: 600px;
   height: auto;
+  padding: 4%;
 }
 
 .hovereffect {
@@ -181,3 +182,13 @@ a Link {
   transition-delay: 0.3s;
 }
 
+.projectflex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.img-responsive {
+  height: 300px;
+  width: auto;
+}
