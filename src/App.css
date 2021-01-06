@@ -43,6 +43,7 @@
 
 .aboutbackground {
   background-color: var(--orange);
+  background: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(229,68,70,0.9556197478991597) 10%);
 }
 
 .aboutflex {
@@ -62,6 +63,7 @@ p {
 .headshot {
   height: 550px;
   width: auto;
+  
 }
 
 .hey {
