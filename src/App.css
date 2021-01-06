@@ -1,7 +1,7 @@
 :root {
   --hot-pink: #ef0f97;
   --white: #ffffff;
-  --orange: #E54446;
+  --orange: #e54446;
 }
 
 * {
@@ -13,15 +13,17 @@
   background-color: black;
   height: 100%;
 }
- 
- .homeimage {
-  transform-origin:50% 50%;
-  animation:15s rotateRight infinite linear; 
+
+.homeimage {
+  transform-origin: 50% 50%;
+  animation: 15s rotateRight infinite linear;
 }
 
-@keyframes rotateRight{
-  100%{ transform:rotate(360deg); }
-} 
+@keyframes rotateRight {
+  100% {
+    transform: rotate(360deg);
+  }
+}
 
 .homelayout {
   text-align: center;
@@ -43,36 +45,38 @@
 
 .aboutbackground {
   background-color: var(--orange);
-  background: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(229,68,70,0.9556197478991597) 10%);
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(229, 68, 70, 0.9556197478991597) 10%
+  );
 }
 
 .aboutflex {
   display: flex;
-
 }
 
 .about_text_flex {
   color: white;
-  padding: 1% 5%;
+  padding: 2% 0% 2% 3%;
 }
 
 p {
-  padding-top: 9%;
+  padding-top: 5%;
 }
 
 .headshot {
-  height: 550px;
+  height: 80vh;
   width: auto;
-  
+  padding: 2% 0% 1% 1%;
 }
 
 .hey {
-  font-family: 'La Belle Aurore', cursive;
+  font-family: "La Belle Aurore", cursive;
   font-size: 100px;
 }
 
 a {
   text-decoration: none;
+  color: white;
 }
-
-

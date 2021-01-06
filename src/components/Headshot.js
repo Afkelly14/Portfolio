@@ -7,9 +7,9 @@ class Headshot extends Component {
     render () {
         return (
             <React.Fragment>
-                <div className="headshot-crop">
+              
                 <img className="headshot" src={picture} />
-                </div>
+              
 
             </React.Fragment>
         )
