@@ -52,16 +52,25 @@
 
 .about_text_flex {
   color: white;
-  padding: 3% 5%;
+  padding: 1% 5%;
 }
 
 p {
-  padding-top: 15%;
+  padding-top: 9%;
 }
 
 .headshot {
   height: 550px;
   width: auto;
+}
+
+.hey {
+  font-family: 'La Belle Aurore', cursive;
+  font-size: 100px;
+}
+
+a {
+  text-decoration: none;
 }
 
 

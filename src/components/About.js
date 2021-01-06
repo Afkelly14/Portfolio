@@ -10,7 +10,7 @@ class About extends Component {
             <div className='aboutbackground'>
                 <div className='aboutflex'>
                     <div className='about_text_flex'>
-                        <p>Hey!</p>
+                        <p className="hey">Hey!</p>
                 <p>I am a full stack developer who is always pursuing new challenges.</p>
                 <p>My prior graphics design experience has given me an eye for design when developing websites</p>
              <p>Currently, I am seeking full-time employment in programming. </p>
