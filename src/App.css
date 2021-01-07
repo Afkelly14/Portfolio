@@ -90,7 +90,7 @@ a Link {
 .project_image {
   width: auto;
   height: auto;
-  margin: 40px;
+  margin: 42px;
   box-shadow: -5px -5px 30px 5px purple, 5px 5px 30px 5px orange;
 }
 
@@ -201,6 +201,7 @@ a Link {
   flex-direction: row;
   flex-wrap: wrap;
   padding-left: 3%;
+  padding-top: 5%;
 }
 
 .img-responsive {

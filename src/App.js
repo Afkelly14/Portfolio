@@ -9,7 +9,7 @@ import Exercises from "./components/Exercises";
 import Home from "./components/Home";
 import About from "./components/About";
 
-// import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 class App extends Component {
   constructor() {
@@ -22,6 +22,7 @@ class App extends Component {
         <Home />
         <About />
         <Projects />
+        <Contact />
         {/* <Route path="/" exact component={Home} />
         <Route path="/home" exact component={Home} />
         <Route path="/contact" exact component={Contact} />

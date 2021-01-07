@@ -1,32 +1,98 @@
 import React, { Component } from "react";
-import { Route, Link, Switch } from "react-router-dom";
+import * as emailjs from 'emailjs-com'
+import { Button, FormFeedback, Form, FormGroup, Label, Input } from 'reactstrap';
 
-import Headshot from "./Headshot";
-
-class Contact extends Component {
-  render() {
+class ContactForm extends Component {
+  state = {
+    name: '',
+    email: '',
+    subject: '',
+    message: '',
+  }
+handleSubmit(e) {
+    e.preventDefault()
+    const { name, email, subject, message } = this.state
+    let templateParams = {
+      from_name: email,
+      to_name: 'afkelly14@gmail.com',
+      subject: subject,
+      message_html: message,
+     }
+     emailjs.send(
+      'gmail',
+      'contact_form',
+       templateParams,
+      'user_oQSCcO5czWfNLWkxhxONR'
+     )
+     this.resetForm()
+ }
+resetForm() {
+    this.setState({
+      name: '',
+      email: '',
+      subject: '',
+      message: '',
+    })
+  }
+handleChange = (param, e) => {
+    this.setState({ [param]: e.target.value })
+  }
+render() {
     return (
-      <React.Fragment>
-        <div className="contact-flex-1">
-          <h1 className="contact-name">Alexandra Kelly</h1>
-
-          <h2 className="contact-title">Full Stack Software Engineer</h2>
-        </div>
-        <div className="contact-flex-2">
-          <div>
-            <Headshot />
-          </div>
-
-          <div className="contact-flex-3">
-            <h3>Washington, D.C. Metro Area</h3>
-            <h3>
-              Contact Me:{" "}
-              <a href="mailto:afkelly14@gmail.com?subject=Programming%20Opportunity">afkelly14@gmail.com</a>
-            </h3>
-          </div>
-        </div>
-      </React.Fragment>
-    );
+      <>
+      
+          <h1 className="p-heading1">Get in Touch</h1>
+          <Form onSubmit={this.handleSubmit.bind(this)}>
+            <FormGroup controlId="formBasicEmail">
+              <Label className="text-muted">Email address</Label>
+              <Input
+                type="email"
+                name="email"
+                value={this.state.email}
+                className="text-primary"
+                onChange={this.handleChange.bind(this, 'email')}
+                placeholder="Enter email"
+              />
+            </FormGroup>
+<FormGroup controlId="formBasicName">
+              <Label className="text-muted">Name</Label>
+              <Input
+                type="text"
+                name="name"
+                value={this.state.name}
+                className="text-primary"
+                onChange={this.handleChange.bind(this, 'name')}
+                placeholder="Name"
+              />
+            </FormGroup>
+<FormGroup controlId="formBasicSubject">
+              <Label className="text-muted">Subject</Label>
+              <Input
+                type="text"
+                name="subject"
+                className="text-primary"
+                value={this.state.subject}
+                onChange={this.handleChange.bind(this, 'subject')}
+                placeholder="Subject"
+              />
+            </FormGroup>
+<FormGroup controlId="formBasicMessage">
+              <Label className="text-muted">Message</Label>
+              <Input
+                type="textarea"
+                name="message"
+                className="text-primary"
+                value={this.state.message}
+                onChange={this.handleChange.bind(this, 'message')}
+              />
+            </FormGroup>
+<Button variant="primary" type="submit">
+              Submit
+            </Button>
+          </Form>
+        
+      </>
+    )
   }
 }
-export default Contact;
+export default ContactForm
