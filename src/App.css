@@ -217,3 +217,25 @@ a Link {
     var(--blue) 10%
   );
 }
+
+.contact_background {
+  background-color: black;
+  background: linear-gradient(
+    to bottom,
+   var(--blue) 0%,
+   black 10%
+  );
+}
+
+.contact_heading{
+  font-size: 100px;
+  text-align: center;
+  padding-top: 12%;
+  font-family: "Frontage Condensed Outline";
+  color: var(--white)
+}
+
+.form_styling {
+  width: 85%;
+  padding: 2% 0% 5% 20%;
+}

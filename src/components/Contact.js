@@ -9,6 +9,7 @@ class ContactForm extends Component {
     subject: '',
     message: '',
   }
+
 handleSubmit(e) {
     e.preventDefault()
     const { name, email, subject, message } = this.state
@@ -34,14 +35,15 @@ resetForm() {
       message: '',
     })
   }
-handleChange = (param, e) => {
-    this.setState({ [param]: e.target.value })
+handleChange = (e) => {
+    this.setState({ [e.target.name]: e.target.value })
   }
 render() {
     return (
       <>
-      
-          <h1 className="p-heading1">Get in Touch</h1>
+          <div className="contact_background">
+          <h1 className="contact_heading">Get in Touch</h1>
+          <div className="form_styling">
           <Form onSubmit={this.handleSubmit.bind(this)}>
             <FormGroup controlId="formBasicEmail">
               <Label className="text-muted">Email address</Label>
@@ -90,7 +92,9 @@ render() {
               Submit
             </Button>
           </Form>
-        
+          </div>
+          </div>
+
       </>
     )
   }
