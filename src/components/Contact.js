@@ -79,13 +79,14 @@ render() {
               />
             </FormGroup>
 <FormGroup controlId="formBasicMessage">
-              <Label className="text-muted">Message</Label>
+              <Label className="text-muted"></Label>
               <Input
                 type="textarea"
                 name="message"
                 className="text-primary"
                 value={this.state.message}
                 onChange={this.handleChange.bind(this, 'message')}
+                placeholder="Type message here..."
               />
             </FormGroup>
 <Button variant="primary" type="submit">
