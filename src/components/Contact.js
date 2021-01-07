@@ -46,7 +46,7 @@ render() {
           <div className="form_styling">
           <Form onSubmit={this.handleSubmit.bind(this)}>
             <FormGroup controlId="formBasicEmail">
-              <Label className="text-muted">Email address</Label>
+              <Label className="text-muted"></Label>
               <Input
                 type="email"
                 name="email"
@@ -57,7 +57,7 @@ render() {
               />
             </FormGroup>
 <FormGroup controlId="formBasicName">
-              <Label className="text-muted">Name</Label>
+              <Label className="text-muted"></Label>
               <Input
                 type="text"
                 name="name"
@@ -68,7 +68,7 @@ render() {
               />
             </FormGroup>
 <FormGroup controlId="formBasicSubject">
-              <Label className="text-muted">Subject</Label>
+              <Label className="text-muted"></Label>
               <Input
                 type="text"
                 name="subject"
