@@ -20,7 +20,7 @@ handleSubmit(e) {
       message_html: message,
      }
      emailjs.send(
-      'gmail',
+      'service_yl4p8mq',
       'contact_form',
        templateParams,
       'user_oQSCcO5czWfNLWkxhxONR'
@@ -35,8 +35,9 @@ resetForm() {
       message: '',
     })
   }
-handleChange = (e) => {
-    this.setState({ [e.target.name]: e.target.value })
+  
+handleChange = (param, e) => {
+    this.setState({ [param]: e.target.value })
   }
 render() {
     return (
