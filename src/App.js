@@ -5,7 +5,6 @@ import "./App.css";
 import Contact from "./components/Contact";
 import Projects from "./components/Projects";
 import Exercises from "./components/Exercises";
-
 import Home from "./components/Home";
 import About from "./components/About";
 
@@ -20,7 +19,9 @@ class App extends Component {
     return (
       <div>
         <Home />
+       
         <About />
+   
         <Projects />
         <Contact />
         {/* <Route path="/" exact component={Home} />
