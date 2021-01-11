@@ -60,7 +60,6 @@
 .about_text_flex {
   color: white;
   padding: 3% 0% 2% 3%;
- 
 }
 
 p {
@@ -251,4 +250,48 @@ a Link {
   opacity: 1;
   transform: none;
   visibility: visible;
+}
+
+@media (max-width: 415px) {
+  .name {
+    font-size: 50px;
+  }
+
+  .title {
+    font-size: 12px;
+  }
+
+  .homeimage {
+    animation: none;
+    display: none;
+  }
+
+  .homebackground {
+    height: 150px;
+  }
+
+  .hey {
+    font-size: 50px;
+  }
+
+  p {
+    font-size: 10px;;
+  }
+
+  .headshot {
+    padding-top: 50%;
+  }
+
+  .btn-info {
+    width: 100%;
+  }
+
+  .projects_title {
+    font-size: 80px;;
+  }
+
+  .img-responsive {
+    height: 180px;
+    width: auto;
+  }
 }

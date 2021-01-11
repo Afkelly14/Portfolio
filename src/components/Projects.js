@@ -47,7 +47,7 @@ class Projects extends Component {
         <img class="img-responsive" src={CocktailAPI} alt="The Cocktail Database" />
         <div class="overlay">
             <h2>Cocktail Database</h2>
-            <p className="project_info">test</p>
+            <p className="project_info">A database of cocktails, their ingredients, type of glass and how to make them</p>
             <a class="info" href="https://github.com/Afkelly14/cocktail-api-front-end">Github</a>
             <a class="info" href="https://cocktail-api-front-end.vercel.app/">Deployed Site</a>
         </div>
@@ -60,7 +60,7 @@ class Projects extends Component {
         <img class="img-responsive" src={Trivia} alt="US History Trivia" />
         <div class="overlay">
             <h2>U.S History Trivia</h2>
-            <p className="project_info"> test</p>
+            <p className="project_info">A timed trivia to test your U.S. History knowledge</p>
             <a class="info" href="https://github.com/Afkelly14/Project-4">Github</a>
             <a class="info" href="https://afkelly14.github.io/Project-4/">Deployed Site</a>
         </div>
@@ -72,7 +72,7 @@ class Projects extends Component {
         <img class="img-responsive" src={Cryptocurrency} alt="Cryptocurrency" />
         <div class="overlay">
             <h2>Cryptocurrency</h2>
-            <p className="project_info"> test</p>
+            <p className="project_info">A webpage showing real-time prices and information from The Cryptocurrency API</p>
             <a class="info" href="https://github.com/Afkelly14/stock_market">Github</a>
             {/* <a class="info" href="#">Deployed Site</a> */}
         </div>
