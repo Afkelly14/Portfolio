@@ -252,6 +252,17 @@ a Link {
   visibility: visible;
 }
 
+.project_info {
+  color: white;
+  padding: 8% 5% 0% 5%;
+}
+
+.ptitle {
+  font-weight: bold;
+}
+
+
+
 @media (max-width: 415px) {
   .name {
     font-size: 50px;
