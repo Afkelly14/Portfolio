@@ -8,7 +8,7 @@ import Trivia from "../images/Trivia.png";
 import Cryptocurrency from "../images/Cryptocurrency.png";
 import comingsoon from "../images/comingsoon.png";
 import { Fade } from "reactstrap";
-
+import Weather from "../images/weather.png";
 
 function FadeInSection(props) {
   const [isVisible, setVisible] = React.useState(true);
@@ -91,17 +91,30 @@ class Projects extends Component {
       </div>
       </div>
 
+
       <div class="project_image">
+       <div class="hovereffect">
+        <img class="weather" src={Weather} alt="Weather" />
+        <div class="overlay">
+            <h2 className="ptitle">Weather App</h2>
+            <p className="project_info">An app to show you weather conditions internationally. Background changes depending on the temperature. This is designed to be viewed on mobile.</p>
+            <a class="info" target="_blank" href="https://github.com/Afkelly14/react-weather-app">Github</a>
+            <a class="info" target="_blank" href="https://reactweatherapp-git-master.afkelly14.vercel.app/">Deployed Site</a>
+        </div>
+      </div>
+      </div>
+
+      {/* <div class="project_image">
        <div class="hovereffect">
         <img class="img-responsive" src={comingsoon} alt="Python Spotify" />
         <div class="overlay">
             <h2 className="ptitle">Python Spotify Playlist</h2>
             <p className="project_info">An application using Python and the Spotify API to show the top trending songs then add them as a playlist on spotify</p>
             <a class="info" target="_blank" href="https://github.com/Afkelly14/spotify">Github</a>
-            {/* <a class="info" href="#">Deployed Site</a> */}
+            <a class="info" href="#">Deployed Site</a>
         </div>
       </div>
-      </div>
+      </div> */}
 
       </div>
       </FadeInSection>

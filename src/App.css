@@ -110,7 +110,7 @@ a Link {
   overflow: hidden;
   top: 0;
   left: 0;
-  background-color: rgba(0,0,0,0.6);
+  background-color: rgba(0, 0, 0, 0.6);
   opacity: 0;
   filter: alpha(opacity=0);
   -webkit-transform: translate(460px, -100px) rotate(180deg);
@@ -184,10 +184,10 @@ a Link {
 }
 
 .projects_title {
- text-align: center;
- padding-top: 20%;
- font-size: 120px;
- font-family: "Blackout";
+  text-align: center;
+  padding-top: 20%;
+  font-size: 120px;
+  font-family: "Blackout";
 }
 
 .projects_hover {
@@ -219,19 +219,15 @@ a Link {
 
 .contact_background {
   background-color: black;
-  background: linear-gradient(
-    to bottom,
-   var(--blue) 0%,
-   black 10%
-  );
+  background: linear-gradient(to bottom, var(--blue) 0%, black 10%);
 }
 
-.contact_heading{
+.contact_heading {
   font-size: 100px;
   text-align: center;
   padding-top: 12%;
   font-family: "Frontage Condensed Outline";
-  color: var(--white)
+  color: var(--white);
 }
 
 .form_styling {
@@ -261,7 +257,10 @@ a Link {
   font-weight: bold;
 }
 
-
+.weather {
+  width: 550px;
+  height: auto;
+}
 
 @media (max-width: 415px) {
   .name {
@@ -286,7 +285,7 @@ a Link {
   }
 
   p {
-    font-size: 10px;;
+    font-size: 10px;
   }
 
   .headshot {
@@ -298,7 +297,7 @@ a Link {
   }
 
   .projects_title {
-    font-size: 80px;;
+    font-size: 80px;
   }
 
   .img-responsive {
